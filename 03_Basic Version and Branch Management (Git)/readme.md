@@ -39,10 +39,10 @@ jangan lupa disetiap branch terdapat pembaharuan isi file.
 ### Task 03
 Implementasi push, pull, stash, merge
 - setiap kita ingin menambahkan file atau mengubah file kita harus melakukan **push** untuk pembaharuan kedalam branch di GitHub. maka dari itu kita menggunakan perintah **git push origin namabranch** 
-- git stash digunakan sebagai penyimpanan sementara.
-- git merge digunakan untuk menggabungkan 2 branch. untuk contoh kita akan menggabungkan branch development dengan branch featureA
+- **git stash** digunakan sebagai penyimpanan sementara.
+- **git merge** digunakan untuk menggabungkan 2 branch. untuk contoh kita akan menggabungkan branch development dengan branch featureA
 ![merge](screenshots/merge.png)
--git pull digunakan untuk 
+- git pull merupakan gabungan antara git branch dengan git master. ia akan mengambil perubahan data yang ada di master dan selanjutkan akan di merge ke git branch kita dan secara otomatis terupdate.
 
 ### Task 04
 Penanganan conflict 
