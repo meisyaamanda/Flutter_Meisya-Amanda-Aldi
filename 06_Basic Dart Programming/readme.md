@@ -1,11 +1,23 @@
-# (05) Basic Dart Programming
+# (06) Basic Dart Programming
 ## Data Diri
 Nomor Urut: 1_018FLB_40
 
 Nama : Meisya Amanda Aldi
 
 ## Summary / Resumue
-Pada section ini saya belajar tentang Basic Dart programming. 
+Pada section ini saya belajar tentang introduction to algorithm and dart programming. introduction to algorithm and dart program membahas bahasa pemograman dart.
+- Bahasa pemograman dart merupakan bahasa pemograman yang dikembangkan oleh google dan sekitar 2011 di publikasikan. Bahasa ini pengembangan dari bahasa c. bahasa pemograman dart bersifat open source jadi siapa saja bisa menggunakan bahasa ini. 
+- Pada dart terdapat fungsi main. fungsi main ini bagian pertama yang dijalankan. type yang digunakan pada main adalah void yang mana tidak mengembalikan nilai. 
+- Variabel dart.
+variabel dapat mengubah nilai. contoh : int usia;
+- Konstanta 
+konstanta merupakan nilai yang tidak dapat dirubah. keyword pada konstanta adalah final. contoh final phi = 3.14;
+- Tipe data
+terdiri dari int, double, boll, string.
+- Operator 
+terdiri dari arithmetic, assignment, comparison, logical.
+
+Basic Dart programming. 
 1. fungsi lanjutan terdiri dari
 - Anonymous Function 
 - arrow function 
