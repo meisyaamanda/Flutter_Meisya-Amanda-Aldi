@@ -4,7 +4,7 @@ Nomor Urut: 1_018FLB_40
 
 Nama : Meisya Amanda Aldi
 
-## Summary / Resumue
+## Summary / Resume
 - Function async-await  memiliki await yang akan menunggu hingga proses async selesai.
 - Tipe data future : membawa data return dari fungsi async
 - Collection 
