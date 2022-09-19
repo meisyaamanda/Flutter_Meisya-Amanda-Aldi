@@ -6,7 +6,6 @@ import 'package:project_cupertino/chat_model.dart';
 import 'package:project_cupertino/contacs.dart';
 import 'package:project_cupertino/settings.dart';
 
-
 class home extends StatefulWidget {
   const home({Key? key}) : super(key: key);
 
@@ -15,7 +14,12 @@ class home extends StatefulWidget {
 }
 
 class _homeState extends State<home> {
-  List<Widget> data = [const contacts(), const call(), const ChatsPage(), const settings()];
+  List<Widget> data = [
+    const contacts(),
+    const call(),
+    const ChatsPage(),
+    const settings()
+  ];
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
@@ -37,19 +41,21 @@ class _homeState extends State<home> {
           ),
         ),
         child: CupertinoTabScaffold(
-            tabBar: CupertinoTabBar(items: [
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.person_pin), label: 'Contacts'),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.call), label: 'Calls'),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.message), label: 'Chats'),
-              BottomNavigationBarItem(
-                  icon: Icon(CupertinoIcons.settings_solid), label: 'Settings'), 
-            ]),
-            tabBuilder: (context, index){
+            tabBar: CupertinoTabBar(
+              items: [
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.person_pin), label: 'Contacts'),
+                BottomNavigationBarItem(icon: Icon(Icons.call), label: 'Calls'),
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.message), label: 'Chats'),
+                BottomNavigationBarItem(
+                    icon: Icon(CupertinoIcons.settings_solid),
+                    label: 'Settings'),
+              ],
+            ),
+            tabBuilder: (context, index) {
               return CupertinoTabView(
-                builder: (context){
+                builder: (context) {
                   return data[index];
                 },
               );
