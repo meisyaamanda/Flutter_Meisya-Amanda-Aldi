@@ -14,6 +14,7 @@ class mobil {
     }
   }
 
+// task 2
   int totalMuatan(){
     var hasil = 0;
     for (var i in muatan){
