@@ -64,27 +64,29 @@ class _TugasListState extends State<TugasList> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('JSON ListView in Flutter'),
+          title: const Text('JSON ListView in Flutter'),
         ),
-        body: SafeArea(child: ListView.builder(
-          itemCount: chat.length,
-          itemBuilder: (context, index) {
-            return ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.green,
-                child: Text(chat[index]['nama']![0]),
-              ),
-              title: Text(
-                '${chat[index]['nama']}',
-                style: TextStyle(fontSize: 18),
-              ),
-              subtitle: Text(
-                '${chat[index]['notelp']}',
-                style: TextStyle(fontSize: 14),
-              ),
-            );
-          },
-        )),
+        body: SafeArea(
+          child: ListView.builder(
+            itemCount: chat.length,
+            itemBuilder: (context, index) {
+              return ListTile(
+                leading: CircleAvatar(
+                  backgroundColor: Colors.green,
+                  child: Text(chat[index]['nama']![0]),
+                ),
+                title: Text(
+                  '${chat[index]['nama']}',
+                  style: TextStyle(fontSize: 18),
+                ),
+                subtitle: Text(
+                  '${chat[index]['notelp']}',
+                  style: TextStyle(fontSize: 14),
+                ),
+              );
+            },
+          ),
+        ),
       ),
     );
   }
