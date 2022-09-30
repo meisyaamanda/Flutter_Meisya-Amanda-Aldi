@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:formpicker/preview.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:open_file/open_file.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -10,10 +13,23 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  String _openFile = '';
   DateTime _dueDate = DateTime.now();
   final _currentDate = DateTime.now();
   Color _currentColor = Colors.purple;
   final captionController = TextEditingController();
+
+  void _pickFile() async {
+    final result = await FilePicker.platform.pickFiles();
+    if (result != null) {
+    final file = result.files.first;
+    setState(() {
+      _openFile = file.path!;
+    });
+    }
+  }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -37,6 +53,18 @@ class _HomeState extends State<Home> {
               ),
               const SizedBox(
                 height: 10,
+              ),
+              Container(
+                width: double.infinity,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.grey[600],
+                  ),
+                  onPressed: () {
+                    _pickFile();
+                  },
+                  child: Text('Pilih File'),
+                ),
               ),
               const SizedBox(
                 height: 30,
@@ -158,6 +186,29 @@ class _HomeState extends State<Home> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
                 ),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Center(
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: ((context) => Preview(
+                            cover: _openFile,
+                            publish: _currentDate,
+                            color: _currentColor,
+                            caption: captionController.text,
+                          )),
+                        ),
+                      );
+                    },
+                    child: Text(
+                      'Simpan',
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                    )),
               )
             ],
           ),
