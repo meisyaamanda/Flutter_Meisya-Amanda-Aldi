@@ -1,0 +1,208 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "flutter_apps",
+      "cwd": "12_Introduction Flutter Widget\\praktikum\\flutter_apps",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_apps (profile mode)",
+      "cwd": "12_Introduction Flutter Widget\\praktikum\\flutter_apps",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_apps (release mode)",
+      "cwd": "12_Introduction Flutter Widget\\praktikum\\flutter_apps",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "platform_widget",
+      "cwd": "13_Platform Widget\\praktikum\\platform_widget",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "platform_widget (profile mode)",
+      "cwd": "13_Platform Widget\\praktikum\\platform_widget",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "platform_widget (release mode)",
+      "cwd": "13_Platform Widget\\praktikum\\platform_widget",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "project_cupertino",
+      "cwd": "13_Platform Widget\\praktikum\\project_cupertino",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "project_cupertino (profile mode)",
+      "cwd": "13_Platform Widget\\praktikum\\project_cupertino",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "project_cupertino (release mode)",
+      "cwd": "13_Platform Widget\\praktikum\\project_cupertino",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "barcode1",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\barcode1",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "barcode1 (profile mode)",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\barcode1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "barcode1 (release mode)",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\barcode1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "button",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\button",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "button (profile mode)",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\button",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "button (release mode)",
+      "cwd": "14_Flutter Command Line Interface (CLI) and Flutter package management\\praktikum\\button",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "task01",
+      "cwd": "15_Flutter Layout\\praktikum\\task01",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "task01 (profile mode)",
+      "cwd": "15_Flutter Layout\\praktikum\\task01",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "task01 (release mode)",
+      "cwd": "15_Flutter Layout\\praktikum\\task01",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "contohassets",
+      "cwd": "16_Assets\\praktikum\\contohassets",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "contohassets (profile mode)",
+      "cwd": "16_Assets\\praktikum\\contohassets",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "contohassets (release mode)",
+      "cwd": "16_Assets\\praktikum\\contohassets",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "forminput",
+      "cwd": "17_Form Input Button\\praktikum\\forminput",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "forminput (profile mode)",
+      "cwd": "17_Form Input Button\\praktikum\\forminput",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "forminput (release mode)",
+      "cwd": "17_Form Input Button\\praktikum\\forminput",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "weekly1",
+      "cwd": "Weekly\\Weekly1\\project\\weekly1",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "weekly1 (profile mode)",
+      "cwd": "Weekly\\Weekly1\\project\\weekly1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "weekly1 (release mode)",
+      "cwd": "Weekly\\Weekly1\\project\\weekly1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "weekly2",
+      "cwd": "Weekly\\Weekly2\\project\\weekly2",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "weekly2 (profile mode)",
+      "cwd": "Weekly\\Weekly2\\project\\weekly2",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "weekly2 (release mode)",
+      "cwd": "Weekly\\Weekly2\\project\\weekly2",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
