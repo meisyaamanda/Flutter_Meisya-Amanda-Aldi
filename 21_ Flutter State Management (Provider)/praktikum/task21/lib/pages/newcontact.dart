@@ -80,7 +80,7 @@ class _NewContactState extends State<NewContact> {
                       );
                     },
                     child: Text(
-                      'Create Contact',
+                      'Submit',
                       style: GoogleFonts.poppins(fontSize: 16),
                     ),
                   ),
