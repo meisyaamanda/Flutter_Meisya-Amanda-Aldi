@@ -9,11 +9,10 @@ void main() {
     (WidgetTester tester) async {
       await tester.pumpWidget(
         const MaterialApp(
-          debugShowCheckedModeBanner: false,
           home: SignIn(),
         ),
       );
-      expect(find.text('We Have \n Expert For You'), findsOneWidget);
+      expect(find.text('Login Screen'), findsOneWidget);
     },
   );
 }
