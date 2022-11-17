@@ -14,7 +14,7 @@ void main() {
     expect(doc1.id.length, greaterThanOrEqualTo(20));
     expect(instance.dump(), equals('''{
       "booking": {
-        "${doc1.id}":{
+        "${doc1.id}":{ \n
         "alamat":"depok",
         "uid":"abc"
       }
