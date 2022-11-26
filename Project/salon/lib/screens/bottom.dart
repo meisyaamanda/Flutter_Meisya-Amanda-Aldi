@@ -56,7 +56,7 @@ class _BottomState extends State<Bottom> {
                         currentTab = 0;
                       });
                     },
-                    child: Column(
+                      child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
